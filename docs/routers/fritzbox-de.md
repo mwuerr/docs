@@ -106,7 +106,7 @@ Heimnetz/Netzwerk/Netzwerkeinstellungen/IP-Adressen/IPv6-Konfiguration/Unique Lo
 
 !!! note "Hinweis"
     Es wird empfohlen, das ULA-Präfix zu ändern, um Kollisionen mit anderen Netzen zu vermeiden.
-    Die ersten 40 Bits sollten gemäß RFC4193 oder durch einen einfachen Online-Generator, wie [unique-local-ipv6.com](https://www.unique-local-ipv6.com/), erzeugt werden. Die restlichen 16 Bits sind die Subnetz-ID und können frei gewählt werden.
+    Die ersten 48 Bits sollten gemäß RFC4193 oder durch einen einfachen Online-Generator, wie [unique-local-ipv6.com](https://www.unique-local-ipv6.com/), erzeugt werden. Die restlichen 16 Bits sind die Subnetz-ID und können frei gewählt werden.
     Nach dem Auswählen von "ULA-Präfix manuell festlegen" kann man sein eigenes Präfix einstellen.
 
 ![Screenshot der Fritz!Box IPv6 Adressen Einstellungen](../images/routers/fritzbox-ipv6-1-de.png)
